@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.15s ease-in-out;
+	font-size:100%;
+
+}
+body {
+
+font-family: 'Josefin Sans', sans-serif;
+}
+:root {
+	--checkBackground: linear-gradient(120deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+	--BrightBlue: hsl(220, 98%, 61%);
+	--borderradius:7px;
+	--marginLR:1rem;
+	/* // light Theme */
+	--lightGray-lt: hsl(0, 0%, 98%);
+	--lightGrayishBlue-lt: hsl(236, 33%, 92%);
+	--veryLightGrayishBlue-lt: hsl(233, 11%, 84%);
+
+	--DarkGrayishBlue: hsl(236, 9%, 61%);
+	--VeryDarkGrayishBlue: hsl(235, 19%, 35%);
+
+	/* // dark Theme */
+	--VeryDarkBlue: hsl(235, 21%, 11%);
+	--VeryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+	--LightGrayishBlue: hsl(234, 39%, 85%);
+	--LightGrayishBlue-hover: hsl(236, 33%, 92%);
+	--DarkGrayishBlue: hsl(234, 11%, 52%);
+	--VeryDarkGrayishBlue-bg: hsl(233, 14%, 35%);
+	--VeryDarkGrayishBlue: hsl(237, 14%, 26%);
+}
+.circle {
+	width:24px;
+    height:24px;
+		cursor:pointer;
+    border-radius: 50%;
+    margin-right:1rem ;
+    outline: 1px solid var(--VeryDarkGrayishBlue-bg);
+}
