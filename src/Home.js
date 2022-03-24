@@ -22,6 +22,10 @@ export default function Home() {
         darkMode={inDarkMode}
         toggleTheme={toggleTheme}
       /> 
+      <div className="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Oussama Bennabi</a>.
+      </div>     
       </Wrapper>
     </main>
       
