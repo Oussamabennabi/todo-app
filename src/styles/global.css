@@ -15,7 +15,6 @@ font-family: 'Josefin Sans', sans-serif;
 	--checkBackground: linear-gradient(120deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 	--BrightBlue: hsl(220, 98%, 61%);
 	--borderradius:7px;
-	--marginLR:1rem;
 	/* // light Theme */
 	--lightGray-lt: hsl(0, 0%, 98%);
 	--lightGrayishBlue-lt: hsl(236, 33%, 92%);

@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 import circleImg from '../../images/icon-check.svg'
+
+
 const TodoEl = styled.div`
   ${(props) => {
   return props.darkMode ?
@@ -54,11 +56,11 @@ span.delete {
 &:hover span.delete {
   opacity: .8;
 }
- 
-  animation: fade-in .15s;
+
+  animation: fade-in .1s;
   @keyframes fade-in {
     0% {
-      transform: translateY(-100%);
+      transform: translateY(-50%);
     }
     100% {
       transform: translateY(0);

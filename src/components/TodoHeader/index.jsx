@@ -7,7 +7,7 @@ import MOON_ICON from '../../images/icon-moon.svg';
 
 
 let value;
-function TodoHeader({darkMode,toggleTheme,addTodo}) {
+function TodoHeader({darkMode,toggleTheme,addTodo,alert}) {
 
   function onChangeHandler(e) {
     value = e.target.value;
@@ -22,6 +22,7 @@ function TodoHeader({darkMode,toggleTheme,addTodo}) {
         <h1>T O D O</h1>
         <img onClick={toggleTheme}src={darkMode ? SUN_ICON : MOON_ICON} alt="icon"/>
       </Header>
+      {alert && <div className="alert">You Dont Have any completed todos yet</div>}
       <Input
         darkMode={darkMode}
       >

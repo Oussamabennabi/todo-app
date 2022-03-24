@@ -5,7 +5,6 @@ import crossIcon from '../../images/icon-cross.svg'
 
 
 
-
 export default function Todo({darkMode,value,removeTodo,TodoId,checkTodo,isChecked}) {
 
 
@@ -25,6 +24,6 @@ export default function Todo({darkMode,value,removeTodo,TodoId,checkTodo,isCheck
         className="delete"
         onClick={()=>removeTodo(TodoId)}
       ><img src={crossIcon} alt="remove" /></span>
-    </TodoEl>
+      </TodoEl>
   );
 }

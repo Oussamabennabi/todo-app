@@ -1,12 +1,19 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  
   max-width:400px;
   width:100%;
   margin-top: 7rem;
+  .alert{
+    border-radius: var(--borderradius);
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255,0,0,.3);
+  }
 `;
-
 
 export const Header = styled.div`
 h1{
@@ -59,7 +66,6 @@ margin-bottom:1.5rem;
     button {
       border: none;
       background: transparent;
-
     }
   }
 `;
