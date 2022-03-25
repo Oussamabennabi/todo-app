@@ -9,7 +9,8 @@ const TodosContainer = styled.div`
   transition:all 0.15s ease-in-out;
 
   .todos-container {
-  border-radius: var(--borderradius);
+  border-top-left-radius: var(--borderradius);
+  border-top-right-radius: var(--borderradius);
   overflow: hidden;
   }
 `;
