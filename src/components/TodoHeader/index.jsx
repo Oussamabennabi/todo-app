@@ -23,14 +23,16 @@ function TodoHeader({darkMode,toggleTheme,addTodo,alert}) {
         <img onClick={toggleTheme}src={darkMode ? SUN_ICON : MOON_ICON} alt="icon"/>
       </Header>
       {alert && <div className="alert">You Dont Have any completed todos yet</div>}
-      <Input
+      <label htmlFor="input"></label>
+       <Input
         darkMode={darkMode}
       >
         <form onSubmit={handleSubmit}>
-          <button  className="circle" onClick={()=>addTodo(value)}>
+          <button type="submit" className="circle" onClick={()=>addTodo(value)}>
             
           </button>
         <input
+          id="input"
           onChange={onChangeHandler}
         />
         </form>
