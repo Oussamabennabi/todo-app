@@ -10,7 +10,8 @@ const Wrapper = styled.div`
 padding:0 1rem;
   width:100%;
   height: 50px;
-  
+  border-bottom-left-radius:var(--borderradius);
+  border-bottom-right-radius:var(--borderradius);
   // dark Mode
   ${(props => props.darkMode ? 'color:var(--veryLightGrayishBlue-lt);' : 'color:black;')}
   ${(props) => {
