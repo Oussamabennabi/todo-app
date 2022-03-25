@@ -153,14 +153,14 @@ export default function Todos({darkMode,toggleTheme }) {
       {/* <DragDropContext onDragEnd={(...props)=>{console.log(props)}}>
         <Droppable  droppableId="droppable-1"> 
         {(provided, snapshot) => {  */}
-            <main
+            <div
             //  innerRef={provided.innerRef}
               className="todos-container"
               // style={{ backgroundColor: snapshot.isDraggingOver ? 'blue' : 'grey' }}
               // {...provided.droppableProps}
             >
             {TodoEls}
-          </main>
+          </div>
 
         {/* }} */}
           
